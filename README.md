@@ -2,7 +2,7 @@
 
 GitHub's Dark Dimmed theme ported to Zed.
 
-<img src="./screenshots/preview.png" width="600" alt="Theme preview">
+<img src="./screenshots/preview.png" width="400" alt="Theme preview">
 
 ## Installation
 
