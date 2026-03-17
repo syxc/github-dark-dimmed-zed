@@ -1,92 +1,61 @@
 # GitHub Dark Dimmed for Zed
 
-A GitHub Dark Dimmed theme for the [Zed](https://zed.dev) code editor.
+GitHub's Dark Dimmed theme ported to Zed.
 
-![Theme Preview](./screenshots/preview.png)
+<img src="./screenshots/preview.png" width="600" alt="Theme preview">
 
-> Screenshot: Zed editor with GitHub Dark Dimmed theme showing TypeScript code
+## Installation
 
-## Install
+Copy the theme file to your Zed themes directory:
 
-### Manual Installation
-
-1. Copy `themes/github-dark-dimmed.json` to your Zed themes directory:
-   - **macOS**: `~/Library/Application Support/Zed/themes/`
-   - **Linux**: `~/.config/zed/themes/`
-
-2. Open Zed settings (`Cmd+,` on macOS, `Ctrl+,` on Linux)
-
-3. Add or update the `theme` field:
-   ```json
-   {
-     "theme": "GitHub Dark Dimmed"
-   }
-   ```
-
-4. Restart Zed if it was open
-
-### Using Zed's Theme Directory
-
-If you already have a themes folder set up:
-
+**macOS:**
 ```bash
-# Clone this repo
-git clone https://github.com/YOUR_USERNAME/github-dark-dimmed-zed.git
-
-# Copy the theme file
-cp github-dark-dimmed-zed/themes/github-dark-dimmed.json \
-   ~/Library/Application\ Support/Zed/themes/
+cp themes/github-dark-dimmed.json ~/Library/Application\ Support/Zed/themes/
 ```
 
-## Color Palette
+**Linux:**
+```bash
+cp themes/github-dark-dimmed.json ~/.config/zed/themes/
+```
 
-### UI Colors
+Then in Zed settings (`Cmd+,` or `Ctrl+,`):
 
-| Color | Hex | Usage |
-|-------|-----|-------|
-| Background | `#212830` | Main editor background |
-| Surface | `#242c36` | Panels, sidebars |
-| Editor BG | `#1d242c` | Code editor area |
-| Border | `#303945` | Dividers, borders |
-| Text | `#adbac7` | Primary text |
-| Text Muted | `#768390` | Secondary text |
-| Accent | `#4492e9` | Links, focus states |
-| Ignored | `#505a6b` | .gitignore files |
+```json
+{
+  "theme": "GitHub Dark Dimmed"
+}
+```
 
-### Syntax Highlighting
+## Colors
 
-| Element | Color | Example |
-|---------|-------|---------|
-| Keywords | `#f47067` | `function`, `return`, `if` |
-| Strings | `#96d0ff` | `"hello world"` |
-| Functions | `#dcbdfb` | `myFunction()` |
-| Types | `#6cb6ff` | `String`, `Array` |
-| Numbers | `#6cb6ff` | `42`, `3.14` |
-| Comments | `#768390` | `// TODO` |
-| Operators | `#adbac7` | `+`, `=`, `=>` |
-| Constants | `#6cb6ff` | `PI`, `MAX_VALUE` |
+**Backgrounds**
+- Main: `#212830`
+- Editor: `#1d242c`
+- Panels: `#242c36`
 
-### Terminal Colors
+**UI**
+- Text: `#adbac7`
+- Muted: `#768390`
+- Borders: `#303945`
+- Accent: `#4492e9`
+- Ignored files: `#505a6b`
 
-The theme includes a full 16-color ANSI palette matching GitHub's Dark Dimmed terminal theme.
+**Syntax**
+- Keywords: `#f47067` (coral red)
+- Strings: `#96d0ff` (light blue)
+- Functions: `#dcbdfb` (purple)
+- Types/Constants: `#6cb6ff` (blue)
+- Comments: `#768390` (gray)
 
-## Why This Theme?
+Full 16-color terminal palette included.
 
-GitHub's Dark Dimmed is easier on the eyes than pure dark themes. The reduced contrast and warm undertones make long coding sessions more comfortable without sacrificing readability.
+## Why
 
-This port brings that same color scheme to Zed with:
-- Careful attention to contrast ratios
-- Consistent visual hierarchy
-- Full syntax highlighting coverage
-- Terminal color support
+The original GitHub Dark Dimmed theme has lower contrast than typical dark themes, making it easier on the eyes during long sessions. This port keeps those same colors.
 
-## Contributing
+## Issues
 
-Found a color that doesn't work well? Open an issue with:
-- What you were doing
-- What you expected to see
-- What you actually saw
-- A screenshot if possible
+Something looks off? [Open an issue](https://github.com/syxc/github-dark-dimmed-zed/issues) with a screenshot.
 
 ## License
 
