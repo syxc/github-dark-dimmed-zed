@@ -4,6 +4,8 @@ A GitHub Dark Dimmed theme for the [Zed](https://zed.dev) code editor.
 
 ![Theme Preview](./screenshots/preview.png)
 
+> Screenshot: Zed editor with GitHub Dark Dimmed theme showing TypeScript code
+
 ## Install
 
 ### Manual Installation
