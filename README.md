@@ -8,12 +8,6 @@ GitHub's Dark Dimmed theme ported to Zed.
 
 Copy the theme file to your Zed themes directory:
 
-**macOS:**
-```bash
-cp themes/github-dark-dimmed.json ~/Library/Application\ Support/Zed/themes/
-```
-
-**Linux:**
 ```bash
 cp themes/github-dark-dimmed.json ~/.config/zed/themes/
 ```
