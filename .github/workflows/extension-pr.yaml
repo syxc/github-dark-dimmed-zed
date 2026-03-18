@@ -11,6 +11,7 @@ jobs:
       - uses: huacnlee/zed-extension-action@v1
         with:
           extension-name: github-dark-dimmed
+          commit-message: "chore: update github-dark-dimmed to v{{version}}"
         env:
           # the personal access token should have "repo" & "workflow" scopes
           COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
