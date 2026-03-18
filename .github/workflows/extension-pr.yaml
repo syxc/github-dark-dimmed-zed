@@ -1,22 +1,17 @@
-# This workflow is triggered on version tags
-# To publish: git tag v0.1.1 && git push origin v0.1.1
-#
-# Manual submission to zed-industries/extensions:
-# 1. Fork: https://github.com/zed-industries/extensions
-# 2. Add your extension to extensions.toml
-# 3. Submit PR
-
 on:
   push:
     tags:
       - 'v*'
 
 jobs:
-  notify:
-    name: Notify Release
+  homebrew:
+    name: Release Zed Extension
     runs-on: ubuntu-latest
     steps:
-      - name: Print release info
-        run: |
-          echo "Release ${{ github.ref_name }} created!"
-          echo "Now submit manually to: https://github.com/zed-industries/extensions"
+      - uses: huacnlee/zed-extension-action@v1
+        with:
+          extension-name: github-dark-dimmed
+          push-to: syxc/extensions
+          commit-message: "chore: update github-dark-dimmed to v{{version}}"
+        env:
+          COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
