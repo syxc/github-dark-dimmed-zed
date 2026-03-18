@@ -25,23 +25,6 @@ cp themes/github-dark-dimmed.json ~/.config/zed/themes/
 
 **Syntax:** Keywords `#f47067` · Strings `#96d0ff` · Functions `#dcbdfb` · Types `#6cb6ff` · Comments `#768390`
 
-## Publish to Zed
-
-This theme uses the manual submission process:
-
-1. Fork [zed-industries/extensions](https://github.com/zed-industries/extensions)
-2. Add entry to `extensions.toml`:
-   ```toml
-   [[extensions]]
-   id = "github-dark-dimmed"
-   name = "GitHub Dark Dimmed"
-   version = "0.1.0"
-   authors = ["nian1 <nian1.wiki@gmail.com>"]
-   description = "GitHub Dark Dimmed theme for Zed"
-   repository = "https://github.com/syxc/github-dark-dimmed-zed"
-   ```
-3. Submit PR
-
 ## License
 
 MIT
