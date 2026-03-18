@@ -68,8 +68,8 @@
         "editor.subheader.background": "#212830ff",
         "editor.active_line.background": "#262d35ff",
         "editor.highlighted_line.background": "#212830ff",
-        "editor.line_number": "#636e7bff",
-        "editor.active_line_number": "#adbac7ff",
+        "editor.line_number": "#5a6570ff",
+        "editor.active_line_number": "#909dabff",
         "editor.invisible": "#636e7bff",
         "editor.wrap_guide": "#212830ff",
         "editor.active_wrap_guide": "#444c56ff",
@@ -134,7 +134,7 @@
         "hint.border": "#444c56ff",
 
         "ignored": "#505a6bff",
-        "ignored.background": "#22272eff",
+        "ignored.background": "#212830ff",
         "ignored.border": "#444c56ff",
 
         "info": "#539bf5ff",
