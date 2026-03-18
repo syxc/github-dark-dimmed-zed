@@ -1,17 +1,17 @@
+# Workflow triggered on release tags
+# For manual submission to zed-industries/extensions
+
 on:
   push:
     tags:
       - 'v*'
 
 jobs:
-  homebrew:
-    name: Release Zed Extension
+  release:
+    name: Release Created
     runs-on: ubuntu-latest
     steps:
-      - uses: huacnlee/zed-extension-action@v1
-        with:
-          extension-name: github-dark-dimmed
-          push-to: syxc/extensions
-          commit-message: "chore: update github-dark-dimmed to v{{version}}"
-        env:
-          COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
+      - name: Print info
+        run: |
+          echo "✓ Release ${{ github.ref_name }} published"
+          echo "✓ Submit to: https://github.com/zed-industries/extensions"
