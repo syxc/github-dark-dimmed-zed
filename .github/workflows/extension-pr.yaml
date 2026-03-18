@@ -11,7 +11,6 @@ jobs:
       - uses: huacnlee/zed-extension-action@v1
         with:
           extension-name: github-dark-dimmed
-          push-to: syxc/extensions
         env:
           # the personal access token should have "repo" & "workflow" scopes
           COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
