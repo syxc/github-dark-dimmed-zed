@@ -23,14 +23,14 @@ Then in Zed settings (`Cmd+,` or `Ctrl+,`):
 ## Colors
 
 **Backgrounds**
-- Main: `#212830`
-- Editor: `#1d242c`
-- Panels: `#242c36`
+- Main/UI: `#212830`
+- Editor: `#22272e`
+- Active line: `#262d35`
 
 **UI**
 - Text: `#adbac7`
 - Muted: `#768390`
-- Borders: `#303945`
+- Borders: `#444c56`
 - Accent: `#4492e9`
 - Ignored files: `#505a6b`
 
