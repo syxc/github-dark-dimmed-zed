@@ -1,10 +1,21 @@
 # GitHub Dark Dimmed for Zed
 
+[![Zed Extension](https://img.shields.io/zed/v/github-dark-dimmed)](https://zed.dev/extensions/github-dark-dimmed)
+
 GitHub's Dark Dimmed theme ported to Zed.
 
 <img src="./screenshots/preview.png" width="400" alt="Theme preview">
 
 ## Installation
+
+### From Zed Extension Library
+
+1. Open Zed
+2. Press `Cmd+Shift+X` to open extensions
+3. Search for "GitHub Dark Dimmed"
+4. Click Install
+
+### Manual Installation
 
 Copy the theme file to your Zed themes directory:
 
