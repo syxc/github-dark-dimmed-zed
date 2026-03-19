@@ -12,7 +12,7 @@
         "border": "#444c56ff",
         "border.variant": "#545d68ff",
         "border.focused": "#4492e9ff",
-        "border.selected": "#768390ff",
+        "border.selected": "#7d8a95ff",
         "border.transparent": "#00000000",
         "border.disabled": "#444c56ff",
 
@@ -34,15 +34,15 @@
         "ghost_element.disabled": "#444c5680",
 
         "text": "#adbac7ff",
-        "text.muted": "#768390ff",
-        "text.placeholder": "#768390ff",
-        "text.disabled": "#768390ff",
+        "text.muted": "#7d8a95ff",
+        "text.placeholder": "#7d8a95ff",
+        "text.disabled": "#7d8a95ff",
         "text.accent": "#79c0ffff",
 
         "icon": "#adbac7ff",
-        "icon.muted": "#768390ff",
-        "icon.disabled": "#768390ff",
-        "icon.placeholder": "#768390ff",
+        "icon.muted": "#7d8a95ff",
+        "icon.disabled": "#7d8a95ff",
+        "icon.placeholder": "#7d8a95ff",
         "icon.accent": "#79c0ffff",
 
         "status_bar.background": "#212830ff",
@@ -70,7 +70,7 @@
         "editor.highlighted_line.background": "#212830ff",
         "editor.line_number": "#5a6570ff",
         "editor.active_line_number": "#909dabff",
-        "editor.invisible": "#768390ff",
+        "editor.invisible": "#7d8a95ff",
         "editor.wrap_guide": "#212830ff",
         "editor.active_wrap_guide": "#444c56ff",
         "editor.indent_guide": "#2d353fff",
@@ -81,9 +81,9 @@
         "terminal.background": "#22272eff",
         "terminal.foreground": "#adbac7ff",
         "terminal.bright_foreground": "#a8b3c0ff",
-        "terminal.dim_foreground": "#768390ff",
+        "terminal.dim_foreground": "#7d8a95ff",
         "terminal.ansi.black": "#22272eff",
-        "terminal.ansi.bright_black": "#768390ff",
+        "terminal.ansi.bright_black": "#7d8a95ff",
         "terminal.ansi.dim_black": "#444c56ff",
         "terminal.ansi.red": "#f47067ff",
         "terminal.ansi.bright_red": "#ff938aff",
@@ -105,7 +105,7 @@
         "terminal.ansi.dim_cyan": "#3a8a8cff",
         "terminal.ansi.white": "#adbac7ff",
         "terminal.ansi.bright_white": "#a8b3c0ff",
-        "terminal.ansi.dim_white": "#768390ff",
+        "terminal.ansi.dim_white": "#7d8a95ff",
 
         "link_text.hover": "#79c0ffff",
 
@@ -125,11 +125,11 @@
         "error.background": "#4a2f2bff",
         "error.border": "#6e423eff",
 
-        "hidden": "#768390ff",
+        "hidden": "#7d8a95ff",
         "hidden.background": "#212830ff",
         "hidden.border": "#444c56ff",
 
-        "hint": "#768390ff",
+        "hint": "#7d8a95ff",
         "hint.background": "#212830ff",
         "hint.border": "#444c56ff",
 
@@ -145,7 +145,7 @@
         "modified.background": "#253040ff",
         "modified.border": "#354a5fff",
 
-        "predictive": "#768390ff",
+        "predictive": "#7d8a95ff",
         "predictive.background": "#242c36ff",
         "predictive.border": "#444c56ff",
 
@@ -157,7 +157,7 @@
         "success.background": "#2a3a32ff",
         "success.border": "#3a5a44ff",
 
-        "unreachable": "#768390ff",
+        "unreachable": "#7d8a95ff",
         "unreachable.background": "#212830ff",
         "unreachable.border": "#444c56ff",
 
@@ -220,12 +220,12 @@
             "font_weight": null
           },
           "comment": {
-            "color": "#768390ff",
+            "color": "#7d8a95ff",
             "font_style": null,
             "font_weight": null
           },
           "comment.doc": {
-            "color": "#768390ff",
+            "color": "#7d8a95ff",
             "font_style": "italic",
             "font_weight": null
           },
@@ -290,7 +290,7 @@
             "font_weight": null
           },
           "hint": {
-            "color": "#768390ff",
+            "color": "#7d8a95ff",
             "font_style": null,
             "font_weight": 700
           },
@@ -330,7 +330,7 @@
             "font_weight": null
           },
           "predictive": {
-            "color": "#768390ff",
+            "color": "#7d8a95ff",
             "font_style": "italic",
             "font_weight": null
           },
