@@ -21,9 +21,9 @@ cp themes/github-dark-dimmed.json ~/.config/zed/themes/
 |-------|-------|-------|
 | UI | `#212830` | Panels, status bar, inactive tabs |
 | Editor | `#22272e` | Editor, terminal, active tab |
-| Active line | `#262d35` | Current line highlight |
+| Active line | `#2d3643` | Current line highlight |
 
-**Syntax:** Keywords `#f47067` · Strings `#96d0ff` · Functions `#dcbdfb` · Types `#6cb6ff` · Comments `#768390`
+**Syntax:** Keywords `#f47067` · Strings `#7ec08e` · Functions `#c77dbb` · Types `#d4956a` · Comments `#7d8a95`
 
 ## License
 
